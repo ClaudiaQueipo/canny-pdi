@@ -16,7 +16,6 @@ orientacion_gradiente = np.arctan2(Gy, Gx)
 Además, se han utilizado curvas (curvelets) en lugar del filtro gaussiano y la estimación del gradiente para calcular un campo vectorial cuyas direcciones y magnitudes se aproximan a la dirección y la fuerza de los bordes en la imagen, a los que luego se aplican los pasos 3 a 5 del algoritmo de Canny [Recurso 1](https://hmong.es/wiki/Canny_edge_detector). Los curvelets descomponen las señales en componentes separados de diferentes escalas, y la eliminación de los componentes de escalas más finas puede reducir el ruido.
 
 ## Artículo analizado
-El artículo de Programar Facil llamado Detector de bordes Canny cómo contar objetos con OpenCV y Python se centra en el detector de bordes Canny utilizando OpenCV en el contexto de la visión artificial. El autor explica cómo implementar el algoritmo Canny en Python utilizando la biblioteca OpenCV. A lo largo del artículo, se describen los detalles técnicos del algoritmo, cómo se aplica en la visión artificial y cómo implementarlo en código. Además, se proporcionan ejemplos de código y resultados visuales para ilustrar el funcionamiento del algoritmo en diferentes situaciones.
-
-## Referencia del articulo
-[Programar Facil](https://programarfacil.com/blog/vision-artificial/detector-de-bordes-canny-opencv/)
+El artículo de Datasmarts ofrece una visión general de la detección de bordes en imágenes y cómo los algoritmos de aprendizaje automático pueden mejorar este proceso. La detección de bordes es esencial para la segmentación y clasificación de imágenes y es una tarea clave en el procesamiento de imágenes y la visión por computadora. Los algoritmos de aprendizaje automático, como las CNN y las DNN, son fundamentales para mejorar la precisión y la velocidad de la detección de bordes.
+## Referencia bibliográfica
+[Datasmarts - deteccion de bordes con el algoritmo canny ](https://www.datasmarts.net/lo-que-necesitas-saber-sobre-la-deteccion-de-bordes/)
